@@ -1,5 +1,6 @@
 # n+1 카드 게임
 # 2024.06.07
+# 2024.06.08 해설 참조해서 풀었음 나중에 다시 풀어보면 좋을 듯
 from collections import deque
 def solution(coin, cards):
     N = len(cards)
