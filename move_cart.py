@@ -1,6 +1,6 @@
 # 수레 움직이기
 # 2024.06.10
-# 참고.. 해서 풀었담..
+# 참고.. 해서 풀었담.. 다시 풀어보자
 from collections import deque
 import copy
 def solution(maze):
