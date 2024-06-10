@@ -3,13 +3,13 @@
 # 해설 참조했음
 def solution(h1, m1, s1, h2, m2, s2):
     cnt = 0
-    
-    # 0 혹은 12로 시작할 때 Counting이 되지 않는 것을 방지
-    if h1 == 0 or h1 == 12:
-        cnt += 1
-    
+
     start_time = h1 * 3600 + m1 * 60 + s1
     end_time = h2 * 3600 + m2 * 60 + s2
+
+    # 0 혹은 12로 시작할 때 Counting이 되지 않는 것을 방지
+    if start_time == 0 or start_time == 12 * 3600:
+        cnt += 1
 
     while start_time < end_time:
         h_current_angle = start_time / 120 % 360
