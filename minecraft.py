@@ -3,6 +3,7 @@
 # Lv2
 # 순서를 바꾸면 안됨!!!
 # 알고리즘 방향은 맞음
+# dfs 방법도 가능하겠네..
 def solution(picks, minerals):
     answer = 0
     s = sum(picks) * 5
